@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(231, 231, 220);
+    size: 100px;
+}
+footer{
+    background-color:rgb(201, 182, 153);
+    display: flex;
+    
+    
+    justify-content: space-between;
+}
+a{
+    color:black;
+    margin-left: 2%;
+    
+   
+}
+h2{
+    color:rgb(207, 25, 25);
+    margin-left: 70px;
+    size: 30px;
+}
+a:hover{
+    color:rgb(207, 25, 25);
+}
+.photo{
+  
+    margin-left: 850px;
+    height: 8%;
+    width: 8%;
+}
+.card{
+    background-color:rgb(219, 207, 190);
+    width: 300px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+h1{
+    text-align:  center;
+    color:rgb(2, 1, 1);
+    font-size:50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    color: black;
+    font-size: 20px;
+    margin-left: 9%;
+    
+}
+h3{
+    color: rgb(207, 25, 25);
+    margin-left: 10%;
+}
+h6{
+    color: rgb(207, 25, 25);
+    margin-left: 70%;
+}
+
+h4{
+    margin-left: 10px;
+    color:rgb(7, 5, 5);
+    font-size:20px;
+}
+h5{
+    font-size: 30px;
+    color: rgb(163, 24, 24);
+    display: inline;
+}
+h5::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 11%;
+    height: 1px;
+    background: black;
+}
+.but:hover{
+    color: red;
+}

@@ -1,0 +1,99 @@
+
+body{
+    background-color: rgb(231, 231, 220);
+    size: 100px;
+}
+fieldset{
+    align-items: center;
+    size: 50%;
+    width: 20%;
+    height: 500px;
+    margin-left: 750px;
+}
+
+legend{
+    font-style: italic;
+    font-size: 35px;
+
+}
+h3{
+    font-size: 50px;
+    font-style: bold;
+    color:rgb(2, 1, 1);
+    text-align: center;
+}
+h2{
+    color:rgb(207, 25, 25);
+    margin-left: 70px;
+    size: 30px;
+}
+
+input{
+    text-align: center;
+    margin-left: 85px;
+    margin-bottom: 0.9%;
+    background-color: transparent;
+}
+label{
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 0.9%;
+    
+}
+button{
+    text-align: center;
+    margin-left: 160px;
+    color:black;
+    background-color: transparent;
+}
+button:hover{
+    color:black;
+}
+textarea{
+    
+    margin-left:15%;
+}
+select{
+    text-align: center;
+    margin-left: 150px;
+    background-color: transparent;
+}
+h5{
+    font-size: 30px;
+    color: rgb(163, 24, 24);
+    display: inline;
+}
+h5::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 11%;
+    height: 1px;
+    background: black;
+  
+}
+
+a{
+    color:black;
+    margin-left: 2%;}
+    a:hover{
+        color:rgb(207, 25, 25);
+    }
+
+footer{
+    background-color:rgb(201, 182, 153);
+    display: flex;
+    
+    
+    justify-content: space-between;
+}
+img{
+      height: 8%;
+    width: 8%;
+    margin-top: 0.1%;
+}
+h4{
+    margin-left: 10px;
+    color:rgb(7, 5, 5);
+    font-size:20px;
+}
